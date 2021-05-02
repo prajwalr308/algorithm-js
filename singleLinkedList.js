@@ -33,9 +33,10 @@ class List{
     }
     display(){
         var currNode=this.head;
-        while(currNode){
+        while(!(currNode.next==null)){
+            console.log(currNode.next.value)
             currNode=currNode.next;
-            console.log(currNode)
+          
         }
       
     }
