@@ -13,6 +13,10 @@ function primeFactor(n) {
  }
 
 ////////////////////////////////
+//best solution
+
+
+
 function primeFactors(n) {
     // Clone n to avoid function arguments override.
     let nn = n;
